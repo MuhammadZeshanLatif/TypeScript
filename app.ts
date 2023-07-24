@@ -5,4 +5,3 @@ function sum(num3:number,num4:number){
 }
 
 let num=(sum(1,2)+num1+num2).toString;
-console.log("tis"+num);
