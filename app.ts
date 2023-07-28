@@ -12,13 +12,7 @@ let product: string = "Badam";
 let price: number = 10;
 let display: string = `The ${product} has price is ${price}`;
 function isEven(a: number) {
-  let isEven:boolean=true;
-    if (a % 2 == 0) {
-        return true;
-
-    } else {
-        return false;
-    }
+  return a%2==0;
 }
 console.log(isEven(2))
 
