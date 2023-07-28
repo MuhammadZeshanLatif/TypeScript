@@ -1,6 +1,11 @@
-let num1:number=1;
-let num2:number=2;
-console.log(num1);
-function sum(num3:number,num4:number){
-    console.log(num3+num4)
-}
+let message:string="Hello typescript";
+let firstyName="Muhammad Zeeshan ";
+let laastName:string="Latif";
+let fullName:string=firstyName+laastName;
+let sentence:string="My name is Zeeshan and I am Hafiz";
+let sentenceLength:number=sentence.length;
+let upperCaseText:string=sentence.toUpperCase();
+let lowerCaseText:string=sentence.toLowerCase();
+console.log(upperCaseText);
+console.log(lowerCaseText);
+
