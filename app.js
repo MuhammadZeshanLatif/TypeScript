@@ -12,6 +12,7 @@ var product = "Badam";
 var price = 10;
 var display = "The ".concat(product, " has price is ").concat(price);
 function isEven(a) {
-    return a % 2 == 0;
+    return a % 4 == 0 && a % 8 == 0;
 }
-console.log(isEven(2));
+console.log(isEven(16));
+console.log(isEven(12));
