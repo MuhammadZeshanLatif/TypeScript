@@ -11,4 +11,13 @@ var longString = sentence.slice(0, 11);
 var product = "Badam";
 var price = 10;
 var display = "The ".concat(product, " has price is ").concat(price);
-console.log(display);
+function isEven(a) {
+    var isEven = true;
+    if (a % 2 == 0) {
+        return true;
+    }
+    else {
+        return false;
+    }
+}
+console.log(isEven(2));
