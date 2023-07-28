@@ -14,5 +14,5 @@ var display = "The ".concat(product, " has price is ").concat(price);
 function isEven(a) {
     return a % 4 == 0 && a % 8 == 0;
 }
-console.log(isEven(16));
-console.log(isEven(12));
+var number1 = 24545454545454545454545454n;
+console.log(number1);

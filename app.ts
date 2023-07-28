@@ -14,6 +14,5 @@ let display: string = `The ${product} has price is ${price}`;
 function isEven(a: number) {
   return a%4==0 && a%8==0;
 }
-console.log(isEven(16))
-console.log(isEven(12))
-
+ let number1:bigint=24545454545454545454545454n;
+console.log(number1);
