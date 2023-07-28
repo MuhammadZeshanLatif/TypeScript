@@ -16,3 +16,5 @@ function isEven(a) {
 }
 var number1 = 24545454545454545454545454n;
 console.log(number1);
+var another = BigInt(123456745465656565655689);
+console.log(another);
