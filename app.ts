@@ -36,26 +36,38 @@
 //   else
 //   return "hello"
 // }
-type U = {
-  name: string;
-}
-type s = {
-  readonly Id: number;
-}
-type er= {
-  age: number;
-}
-type User=U & s & er & {
+// type U = {
+//   name: string;
+// }
+// type s = {
+//   readonly Id: number;
+// }
+// type er= {
+//   age: number;
+// }
+// type User=U & s & er & {
 
-}
-let usr: User = {
-  name: "Zeeshan",
-  Id: 786,
-  age: 49
-}
-function myData(u: User): User {
- console.log(usr)
-  return usr;
-}
+// }
+// let usr: User = {
+//   name: "Zeeshan",
+//   Id: 786,
+//   age: 49
+// }
+// function myData(u: User): User {
+//  console.log(usr)
+//   return usr;
+// }
 
-myData(usr);
+// myData(usr);
+//  let tpl:[number,string]=[1,"h"];
+//  tpl.push("hello");
+//  console.log(tpl.length);
+interface User{
+  email?:string,
+  readonly Id:number,
+  name:string,
+  display:()=>string
+}
+let usr:User={name:"Zeeshan",Id:123,display:()=>{return "Hello"}}
+console.log(usr);
+ 
