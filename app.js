@@ -14,17 +14,19 @@
 // function isEven(a: number) {
 //   return a%4==0 && a%8==0;
 // }
-var Person = /** @class */ (function () {
-    function Person() {
-        this.name = "";
-        this.age = 0;
-    }
-    Person.prototype.greting = function () {
-        return "My name is " + this.name + " and i am " + this.age + " years old";
-    };
-    return Person;
-}());
-var obj = new Person();
-obj.name = "Zeeshan";
-obj.age = "145";
-console.log(obj.greting());
+// class Person{
+//   name:string="";
+//   age:number=0;
+//   greting(){
+//     return "My name is "+this.name+" and i am " +this.age+" years old";
+//   }
+// }
+var usr = {
+    name: "Zeeshan",
+    Id: 786,
+    age: 49
+};
+function myData(u) {
+    return usr;
+}
+myData(usr);

@@ -26,6 +26,28 @@
 //    obj.name="Zeeshan";
 //    obj.age="145";
 //    console.log(obj.greting());
-let fn =(numL:number):number=>{
-  return 10;
+// let fn=(num: number): boolean | number |string =>{
+//   if (num > 14) {
+//     return true
+//   }
+//   else if (num>15){
+//   return 15;
+//   }
+//   else
+//   return "hello"
+// }
+type User={
+  name:string;
+  readonly Id:number;
+  age:number;
 }
+let usr:User={
+  name:"Zeeshan",
+  Id:786,
+  age:49
+}
+ function myData(u:User):User{
+  return usr;
+ }
+
+ myData(usr);
