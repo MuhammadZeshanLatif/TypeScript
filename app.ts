@@ -14,3 +14,15 @@
 // function isEven(a: number) {
 //   return a%4==0 && a%8==0;
 // }
+class Person{
+  name:string="";
+  age:number=0;
+  greting(){
+    return "My name is "+this.name+" and i am " +this.age+" years old";
+  }
+}
+
+   const obj:any=new Person();
+   obj.name="Zeeshan";
+   obj.age="145";
+   console.log(obj.greting());
