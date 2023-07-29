@@ -27,6 +27,7 @@ var usr = {
     age: 49
 };
 function myData(u) {
+    console.log(usr);
     return usr;
 }
 myData(usr);

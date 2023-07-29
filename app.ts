@@ -36,18 +36,26 @@
 //   else
 //   return "hello"
 // }
-type User={
-  name:string;
-  readonly Id:number;
-  age:number;
+type U = {
+  name: string;
 }
-let usr:User={
-  name:"Zeeshan",
-  Id:786,
-  age:49
-} 
- function myData(u:User):Uer{
-  return usr;
- }
+type s = {
+  readonly Id: number;
+}
+type er= {
+  age: number;
+}
+type User=U & s & er & {
 
- myData(usr);
+}
+let usr: User = {
+  name: "Zeeshan",
+  Id: 786,
+  age: 49
+}
+function myData(u: User): User {
+ console.log(usr)
+  return usr;
+}
+
+myData(usr);
