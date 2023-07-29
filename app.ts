@@ -45,8 +45,8 @@ let usr:User={
   name:"Zeeshan",
   Id:786,
   age:49
-}
- function myData(u:User):User{
+} 
+ function myData(u:User):Uer{
   return usr;
  }
 
