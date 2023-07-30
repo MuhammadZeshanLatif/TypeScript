@@ -21,41 +21,5 @@
 //     return "My name is "+this.name+" and i am " +this.age+" years old";
 //   }
 // }
-//    const obj:any=new Person();
-//    obj.name="Zeeshan";
-//    obj.age="145";
-//    console.log(obj.greting());
-// let fn=(num: number): boolean | number |string =>{
-//   if (num > 14) {
-//     return true
-//   }
-//   else if (num>15){
-//   return 15;
-//   }
-//   else
-//   return "hello"
-// }
-// type U = {
-//   name: string;
-// }
-// type s = {
-//   readonly Id: number;
-// }
-// type er= {
-//   age: number;
-// }
-// type User=U & s & er & {
-// }
-// let usr: User = {
-//   name: "Zeeshan",
-//   Id: 786,
-//   age: 49
-// }
-// function myData(u: User): User {
-//  console.log(usr)
-//   return usr;
-// }
-// myData(usr);
-var tpl = [1, "h"];
-tpl.push("hello");
-console.log(tpl.length);
+var usr = { name: "Zeeshan", Id: 123, display: function () { return "Hello"; } };
+console.log(usr);
