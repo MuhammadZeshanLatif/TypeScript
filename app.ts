@@ -66,7 +66,7 @@ interface User{
   email?:string,
   readonly Id:number,
   name:string,
-  display() :string
+  display():string
 }
 let usr:User={name:"Zeeshan",Id:123,display:()=>{return "Hello"}}
 console.log(usr);
