@@ -25,4 +25,4 @@
 // console.log(usr);
 // console.dir(window.navigator);
 // console.log("Hello")
-document.getElementsByTagName("div").item(1)
+document.getElementsByTagName("div").namedItem("one");
