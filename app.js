@@ -23,4 +23,6 @@
 // // }
 // var usr = { name: "Zeeshan", Id: 123, display: function () { return "Hello"; } };
 // console.log(usr);
-console.dir(window.navigator);
+// console.dir(window.navigator);
+// console.log("Hello")
+document.getElementsByTagName("div").item(1)
